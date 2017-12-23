@@ -4,12 +4,17 @@ header{
   padding-bottom:50px;
   padding-left:0px;
   background-image:header_background.png;
+  
 }
 .header_image_left{
   float:left; 
+  height: 200px;
+  width: 100%;
   border-radius:50%;
 }
 .header_image_right{
+  height: 200px;
+  width: 100%;
   float:right;
   border-radius:50%;
 }
