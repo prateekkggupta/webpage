@@ -1,17 +1,36 @@
-header{
-  padding-top:0px;
-  padding-right:0px;
-  padding-bottom:50px;
-  padding-left:0px;
-  background-image:header_background.png;
+.header{
+  width: 100%;
+  opacity: 0.4;
+  display: inline-flex;
+  padding-top:30px;
+  padding-right:30px;
+  padding-bottom:40px;
+  padding-left:30px;
+  background-color: white;
 }
 .header_image_left{
-  float:left; 
+  opacity: 2;
+  float: left;
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
 }
 .header_image_right{
-  float:right;
+  opacity: 2;
+  align-content: right;
+  height: 100px;
+  width: 100px;
+  padding-right: 0px;
+  float: right;
+  border-radius:50%;
 }
 .header_text{
-  float:center;
-  font-weight: 900;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+p{
+  color: red;
+}
+body{
+  background-image: url("background.jpg");
 }
